@@ -5,14 +5,7 @@ body {
 
 a {
     text-decoration: none;
-
 }
-
-.main-container {
-    display: flex;
-    width: 100%;
-}
-
 
 /*Sing-up section elements*/
 
@@ -81,7 +74,7 @@ a {
     display: flex;
     justify-content: center;
     text-align: center;
-    font-size: clamp(26px, 3vw, 36px);;
+    font-size: clamp(26px, 3vw, 36px);
     margin: 12px;
 }
 
@@ -160,6 +153,7 @@ a {
     display: flex;
     justify-content: space-around;
     margin: 12px;
+    padding: 1rem;
     box-shadow: lightgray 1px 1px 20px;
     flex-wrap: wrap;
 }
@@ -194,7 +188,9 @@ a {
 }
 
 #cta-link {
-    color: #E5E7EB;
+    background-color: #E5E7EB;
+    color: #3882F6;
+    font-weight: bold;
     border: solid 1px;
     display: inline-block;
     border-radius: 15px;

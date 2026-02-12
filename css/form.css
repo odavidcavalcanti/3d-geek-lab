@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    background-size: 100% auto;
+    background-position: top center;
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    min-height: 0;
+    justify-content: space-between;
+}
+
+/* Header elements */
+
+.header {
+    display: flex;
+    background: #1F2937;
+    justify-content: center;
+}
+
+.title {
+    color: #F9FAF8;
+    margin: 12px;
+    text-align: center;
+}
+
+/* Form elements */
+
+.form-section {
+    display: flex;
+    flex-direction: column;
+    background-color: #3882F6;
+    margin: 12px;
+    border-radius: 5px;
+    padding: 1rem;
+    justify-self: center;
+    align-self: center;
+    flex-wrap: wrap;
+    box-shadow: black 1px 1px 20px;
+}
+
+.main-form {
+    display: flex;
+    flex-direction: column;
+    min-width: 60vw;
+    max-width: auto;
+    gap: 12px;
+}
+
+.form-element {
+    display: flex;
+    justify-self: flex-start;
+    color: #F9FAF8;
+}
+
+.form-section input,
+.form-section textarea {
+    width: 100%;
+    max-width: 100%;
+}
+
+input,
+textarea {
+    border: 2px solid #F9FAF8;
+    color: #F9FAF8;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    flex: 1;
+    resize: none;
+    background-color: #3882F6;
+    overflow: auto;
+}
+
+textarea {
+    height: auto;
+    min-height: 100px;
+}
+
+textarea::placeholder,
+input::placeholder {
+    color: #F9FAF8;
+    opacity: 1;
+}
+
+#send-button {
+    color: #3882F6;
+    background-color: #F9FAF8;
+    font-weight: bold;
+    border: solid 2px;
+    border-radius: 0.5rem;
+    padding: 10px 30px;
+    margin: 12px;
+    width: 100px;
+    align-self: center;
+}
+
+#send-button:hover {
+    background: darkgray;
+}
+
+/*Footer section elements*/
+
+.footer {
+    display: flex;
+    background: #1F2937;
+    justify-content: center;
+}
+
+.footer-text {
+    color: white;
+    margin: 12px;
+}

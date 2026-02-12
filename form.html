@@ -1,12 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+    </style>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/form.css">
+    <meta http-equiv="X-UA-Compatible" contet="IE=Edge">
     <title>Contact Us</title>
 </head>
+
 <body>
-    
+
+    <main class="main-container">
+        <header class="header">
+            <div>
+                <h1 class="title" id="header-title">
+                    <a href="./index.html"> 3D Geek Lab </a>
+                </h1>
+                <h2 class="title" id="header-subtitle">
+                    Contact Us
+                </h2>
+            </div>
+        </header>
+
+        <section class="form-section">
+
+            <h2 class="title" id="form-title">Send your message to our team, and we will get back to you as soon as
+                possible.
+            </h2>
+
+            <form class="main-form">
+
+                <div class="form-element">
+                    <input name="text" type="text" placeholder="Enter your name.">
+                </div>
+
+                <div class="form-element">
+                    <input name="email" type="text" placeholder="Enter your e-mail.">
+                </div>
+
+                <div class="form-element">
+                    <textarea name="message" placeholder="Type your message or request."></textarea>
+                </div>
+
+                <button id="send-button">
+                    Send
+                </button>
+
+            </form>
+        </section>
+
+        <footer class="footer">
+            <p class="footer-text">Copyright © 3D Geek Lab, 2025</p>
+        </footer>
+    </main>
+
 </body>
+
 </html>
