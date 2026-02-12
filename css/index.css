@@ -17,18 +17,9 @@ a {
 .header {
     width: 100%;
     background: #1F2937;
-    display: flex;
-    justify-content: space-around;
+    display: none;
     align-items: center;
 
-}
-
-.logo a {
-    display: flex;
-    font-size: 24px;
-    font-weight: bold;
-    color: #F9FAF8;
-    align-items: center;
 }
 
 ul {
@@ -58,6 +49,7 @@ a:hover {
     justify-content: center;
     align-items: center;
     gap: 150px;
+    padding: 1rem;
 }
 
 .singup,
@@ -68,17 +60,15 @@ a:hover {
     width: 30%;
     height: 70%;
     justify-content: center;
-    margin-bottom: 30px;
 }
 
 .main-image {
     align-items: center;
-    width: 700px;
-    height: 200px;
-    border: solid 1px;
+    width: auto;
+    height: auto;
     border-radius: 10px;
     justify-self: center;
-
+    box-shadow: gray 1px 1px 15px;
 }
 
 .singup-title {
@@ -131,6 +121,7 @@ a:hover {
     border: solid 2px #3882F6;
     max-width: 200;
     max-height: 210px;
+    box-shadow: lightgray 1px 1px 20px;
 }
 
 .card-subtext {
@@ -178,7 +169,7 @@ a:hover {
     justify-content: space-around;
     width: 50%;
     margin: 50px;
-
+    box-shadow: lightgray 1px 1px 20px;
 }
 
 .cta-call {
