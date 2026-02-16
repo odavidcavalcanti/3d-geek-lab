@@ -2,9 +2,11 @@ import { buildFormMessage } from "./buildFormMessage.js";
 import { sendContact } from "./contactApi.js";
 
 const sendButton = document.getElementById('send-button');
+const form = document.querySelector('.main-form');
 
-sendButton.addEventListener('click', async (event) => {
+form.addEventListener('submit', async (event) => {
     event.preventDefault();
+
     const body = buildFormMessage();
     if (!body) return;
 
