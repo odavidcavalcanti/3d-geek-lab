@@ -115,8 +115,14 @@ input::placeholder {
     align-self: center;
 }
 
+#send-button[disabled] {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
 #send-button:hover {
     background: darkgray;
+    cursor: pointer;
 }
 
 /*Footer section elements*/
