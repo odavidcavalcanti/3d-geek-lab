@@ -2,7 +2,7 @@
     "rewrites": [
         {
             "source": "/api/:path*",
-            "destination": ""
+            "destination": "https://cruel-abra-odavidcavalcanti-5cbd7f08.koyeb.app/api/:path*"
         }
     ]
 }

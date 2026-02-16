@@ -1,5 +1,5 @@
 export async function sendContact(body) {
-    const response = await fetch(`/api/contactus`, {
+    const response = await fetch(`/api/contact`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(body)
