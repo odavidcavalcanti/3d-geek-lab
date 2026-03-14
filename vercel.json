@@ -2,7 +2,7 @@
     "rewrites": [
         {
             "source": "/api/:path*",
-            "destination": "blank-ape-odavidcavalcanti-669249e0.koyeb.app/api/:path*"
+            "destination": "https://blank-ape-odavidcavalcanti-669249e0.koyeb.app/api/:path*"
         }
     ]
 }
